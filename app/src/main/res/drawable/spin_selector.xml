@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true">
+        <ripple android:color="@color/color_2">
+            <item android:id="@android:id/mask">
+                <shape>
+                    <corners android:radius="@dimen/dimen_8"/>
+                    <solid android:color="?android:colorAccent"/>
+                </shape>
+            </item>
+            <item android:drawable="@drawable/button_7"/>
+        </ripple>
+    </item>
+    <item android:state_enabled="false" android:drawable="@drawable/button_8"/>
+</selector>
