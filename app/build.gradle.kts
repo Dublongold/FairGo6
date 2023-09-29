@@ -5,15 +5,15 @@ plugins {
 }
 
 android {
-    namespace = "one.two.fairgo6"
+    namespace = "com.slot.sfairgo.playfair.goapp"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "one.two.fairgo6"
+        applicationId = "com.slot.sfairgo.playfair.goapp"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
-        versionName = "1.0"
+        versionName = "1.0.3.3.7"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -42,6 +42,7 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.9.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-protobuf:1.6.0")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
@@ -49,6 +50,8 @@ dependencies {
     implementation(platform("com.google.firebase:firebase-bom:32.3.1"))
     implementation("com.google.firebase:firebase-analytics-ktx")
     implementation("com.google.firebase:firebase-config-ktx")
+
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-cbor:1.6.0")
 
     implementation("com.onesignal:OneSignal:5.0.2")
 

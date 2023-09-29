@@ -7,14 +7,14 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="@string/application_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FairGo6"
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".views.activities.MainManager"
+            android:name=".activities.MainManager"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:windowSoftInputMode="adjustResize"
             android:exported="true">
@@ -24,7 +24,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".views.activities.WebManager"
+        <activity android:name=".activities.WebManager"
             android:exported="false"
             android:configChanges="screenSize|keyboardHidden|orientation"
             android:windowSoftInputMode="adjustResize"

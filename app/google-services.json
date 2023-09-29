@@ -1,40 +1,21 @@
 {
   "project_info": {
-    "project_number": "979052901216",
-    "project_id": "bitgames-ffde7",
-    "storage_bucket": "bitgames-ffde7.appspot.com"
+    "project_number": "87745923292",
+    "project_id": "fair-slots",
+    "storage_bucket": "fair-slots.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:979052901216:android:91c603160932220cdce405",
+        "mobilesdk_app_id": "1:87745923292:android:96879d6b37406ad2b94c19",
         "android_client_info": {
-          "package_name": "one.two.fairgo6"
+          "package_name": "com.slot.sfairgo.playfair.goapp"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCPPwpdt0mmHmbZF8oQn36A2o7Qmu87r8Y"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:979052901216:android:4e28869fd320185bdce405",
-        "android_client_info": {
-          "package_name": "one.two.niagarafallsgames"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCPPwpdt0mmHmbZF8oQn36A2o7Qmu87r8Y"
+          "current_key": "AIzaSyB9fRADGivnFDp3bbbSfPKvbdaNGhxpAig"
         }
       ],
       "services": {
